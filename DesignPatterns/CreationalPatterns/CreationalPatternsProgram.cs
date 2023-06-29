@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.CreationalPatterns.AbstractFactory;
+using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.FactoryMethod;
 using Program;
 
@@ -11,7 +12,8 @@ namespace DesignPatterns.CreationalPatterns
 		{
 			LogInterceptor.Intercept(new Action[] {
                 FactoryMethodRunner.Run,
-                AbstractFactoryRunner.Run
+                AbstractFactoryRunner.Run,
+				BuilderRunner.Run
             });
 		}
 	}
