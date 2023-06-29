@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CreationalPatterns\" />
+    <None Remove="CreationalPatterns\FactoryMethod\" />
+    <None Remove="CreationalPatterns\AbstractFactory\" />
+    <None Remove="CreationalPatterns\AbstractFactory\Weapons\" />
+    <None Remove="CreationalPatterns\AbstractFactory\Shields\" />
+    <None Remove="CreationalPatterns\AbstractFactory\Factories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CreationalPatterns\" />
+    <Folder Include="CreationalPatterns\FactoryMethod\" />
+    <Folder Include="CreationalPatterns\AbstractFactory\" />
+    <Folder Include="CreationalPatterns\AbstractFactory\Weapons\" />
+    <Folder Include="CreationalPatterns\AbstractFactory\Shields\" />
+    <Folder Include="CreationalPatterns\AbstractFactory\Factories\" />
+  </ItemGroup>
+</Project>
