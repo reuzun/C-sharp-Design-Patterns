@@ -7,10 +7,10 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 		{
 		}
 
-        public void Defence()
-        {
+		public void Defence()
+		{
 			Console.WriteLine("SilverShield: Defence");
-        }
-    }
+		}
+	}
 }
 

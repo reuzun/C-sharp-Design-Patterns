@@ -5,25 +5,25 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 	{
 		public AbstractFactoryRunner()
 		{
-        }
+		}
 
-        [Logger("AbstractFactory Running Started", "AbstractFactory Running End")]
-        public static void Run()
-        {
-            ItemFactory silverFactory = new SilverItemFactory();
-            IWeapon silverWeapon = silverFactory.CreateWeapon();
-            IShield silverShield = silverFactory.CreateShield();
+		[Logger("AbstractFactory Running Started", "AbstractFactory Running End")]
+		public static void Run()
+		{
+			ItemFactory silverFactory = new SilverItemFactory();
+			IWeapon silverWeapon = silverFactory.CreateWeapon();
+			IShield silverShield = silverFactory.CreateShield();
 
-            silverWeapon.Attack();
-            silverShield.Defence();
+			silverWeapon.Attack();
+			silverShield.Defence();
 
-            ItemFactory goldFactory = new GoldItemFactory();
-            IWeapon goldWeapon = goldFactory.CreateWeapon();
-            IShield goldShield = goldFactory.CreateShield();
+			ItemFactory goldFactory = new GoldItemFactory();
+			IWeapon goldWeapon = goldFactory.CreateWeapon();
+			IShield goldShield = goldFactory.CreateShield();
 
-            goldWeapon.Attack();
-            goldShield.Defence();
-        }
-    }
+			goldWeapon.Attack();
+			goldShield.Defence();
+		}
+	}
 }
 

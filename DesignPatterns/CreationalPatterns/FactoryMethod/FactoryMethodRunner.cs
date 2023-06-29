@@ -11,9 +11,9 @@ namespace DesignPatterns.CreationalPatterns.FactoryMethod
 			BaseCalculator multiplicationCalculator =
 				new MultiplicationCalculator("MultiplicationCalculator", 2);
 
-            additionCalculator.Print();
-            multiplicationCalculator.Print();
-        }
-    }
+			additionCalculator.Print();
+			multiplicationCalculator.Print();
+		}
+	}
 }
 

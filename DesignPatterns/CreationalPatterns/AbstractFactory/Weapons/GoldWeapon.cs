@@ -7,10 +7,10 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 		{
 		}
 
-        public void Attack()
-        {
+		public void Attack()
+		{
 			Console.WriteLine("GoldWeapon: Attack");
-        }
-    }
+		}
+	}
 }
 

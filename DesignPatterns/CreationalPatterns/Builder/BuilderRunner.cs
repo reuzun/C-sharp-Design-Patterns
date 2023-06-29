@@ -8,15 +8,15 @@ namespace DesignPatterns.CreationalPatterns.Builder
 		}
 
 		[Logger("Builder Running Started", "Builder Running End")]
-        public static void Run()
-        {
+		public static void Run()
+		{
 			PizzaBuilder pizzaBuilder = new PizzaBuilder();
 			Pizza pizzaWithGarlic = pizzaBuilder
 				.SetRadius(20)
 				.AddGarlic()
 				.Build();
 
-            Pizza pizzaWithTomatoAndCheddar = pizzaBuilder
+			Pizza pizzaWithTomatoAndCheddar = pizzaBuilder
 				.SetRadius(20)
 				.AddTomato()
 				.AddCheddar()
@@ -24,7 +24,6 @@ namespace DesignPatterns.CreationalPatterns.Builder
 
 			Console.WriteLine($"Pizza with garlic {pizzaWithGarlic.containsGarlic}");
 			Console.WriteLine($"Pizza with cheddar and tomato {pizzaWithTomatoAndCheddar.containsCheddar} && {pizzaWithTomatoAndCheddar.containsTomato}");
-        }
-    }
+		}
+	}
 }
-

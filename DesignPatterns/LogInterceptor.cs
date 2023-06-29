@@ -9,31 +9,31 @@ namespace DesignPatterns
 		{
 		}
 
-        public static void Intercept(Action method)
-        {
-            LoggerAttribute? attribute =
-                method.GetMethodInfo().GetCustomAttribute<LoggerAttribute>();
+		public static void Intercept(Action method)
+		{
+			LoggerAttribute? attribute =
+				method.GetMethodInfo().GetCustomAttribute<LoggerAttribute>();
 
-            if (attribute == null)
-            {
-                method();
-                return;
-            }
+			if (attribute == null)
+			{
+				method();
+				return;
+			}
 
-            attribute.PrintBeforeMessage();
+			attribute.PrintBeforeMessage();
 
-            method();
+			method();
 
-            attribute.PrintAfterMessage();
-        }
+			attribute.PrintAfterMessage();
+		}
 
-        public static void Intercept(params Action[] methods)
-        {
-            foreach(Action method in methods)
-            {
-                Intercept(method);
-            }
-        }
-    }
+		public static void Intercept(params Action[] methods)
+		{
+			foreach (Action method in methods)
+			{
+				Intercept(method);
+			}
+		}
+	}
 }
 

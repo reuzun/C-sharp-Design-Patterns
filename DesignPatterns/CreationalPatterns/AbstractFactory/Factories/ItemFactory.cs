@@ -3,8 +3,8 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
 	public interface ItemFactory
 	{
-        IWeapon CreateWeapon();
-        IShield CreateShield();
+		IWeapon CreateWeapon();
+		IShield CreateShield();
 	}
 }
 

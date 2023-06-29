@@ -7,15 +7,15 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 		{
 		}
 
-        public IShield CreateShield()
-        {
-            return new SilverShield();
-        }
+		public IShield CreateShield()
+		{
+			return new SilverShield();
+		}
 
-        public IWeapon CreateWeapon()
-        {
-            return new SilverWeapon();
-        }
-    }
+		public IWeapon CreateWeapon()
+		{
+			return new SilverWeapon();
+		}
+	}
 }
 
