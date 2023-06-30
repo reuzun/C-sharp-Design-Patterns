@@ -20,6 +20,11 @@
     <None Remove="StructuralPatterns\" />
     <None Remove="StructuralPatterns\Adapter\" />
     <None Remove="StructuralPatterns\Adapter\Library\" />
+    <None Remove="StructuralPatterns\Bridge\" />
+    <None Remove="StructuralPatterns\Bridge\Weapons\" />
+    <None Remove="StructuralPatterns\Bridge\Shields\" />
+    <None Remove="StructuralPatterns\Bridge\Materials\" />
+    <None Remove="StructuralPatterns\Bridge\Factories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -34,5 +39,10 @@
     <Folder Include="StructuralPatterns\" />
     <Folder Include="StructuralPatterns\Adapter\" />
     <Folder Include="StructuralPatterns\Adapter\Library\" />
+    <Folder Include="StructuralPatterns\Bridge\" />
+    <Folder Include="StructuralPatterns\Bridge\Weapons\" />
+    <Folder Include="StructuralPatterns\Bridge\Shields\" />
+    <Folder Include="StructuralPatterns\Bridge\Materials\" />
+    <Folder Include="StructuralPatterns\Bridge\Factories\" />
   </ItemGroup>
 </Project>
