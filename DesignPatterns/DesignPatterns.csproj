@@ -25,6 +25,8 @@
     <None Remove="StructuralPatterns\Bridge\Shields\" />
     <None Remove="StructuralPatterns\Bridge\Materials\" />
     <None Remove="StructuralPatterns\Bridge\Factories\" />
+    <None Remove="CreationalPatterns\FactoryMethod\Factories\" />
+    <None Remove="CreationalPatterns\FactoryMethod\Products\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -44,5 +46,7 @@
     <Folder Include="StructuralPatterns\Bridge\Shields\" />
     <Folder Include="StructuralPatterns\Bridge\Materials\" />
     <Folder Include="StructuralPatterns\Bridge\Factories\" />
+    <Folder Include="CreationalPatterns\FactoryMethod\Factories\" />
+    <Folder Include="CreationalPatterns\FactoryMethod\Products\" />
   </ItemGroup>
 </Project>

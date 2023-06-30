@@ -1,4 +1,6 @@
 ﻿using System;
+using DesignPatterns.CreationalPatterns.FactoryMethod.Factories;
+
 namespace DesignPatterns.CreationalPatterns.FactoryMethod
 {
 	public class FactoryMethodRunner
@@ -6,13 +8,9 @@ namespace DesignPatterns.CreationalPatterns.FactoryMethod
 		[Logger("FactoryMethod")]
 		public static void Run()
 		{
-			BaseCalculator additionCalculator =
-				new AdditionCalculator("AdditionCalculator", 1);
-			BaseCalculator multiplicationCalculator =
-				new MultiplicationCalculator("MultiplicationCalculator", 2);
+			BaseCalculatorFactory additionFactory = new AdditionCalculatorFactory();
 
-			additionCalculator.Print();
-			multiplicationCalculator.Print();
+			Console.WriteLine("3 + 5 = " + additionFactory.DoCalculation(3, 5));
 		}
 	}
 }
