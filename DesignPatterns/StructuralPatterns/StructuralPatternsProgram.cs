@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.StructuralPatterns.Adapter;
 using DesignPatterns.StructuralPatterns.Bridge;
+using DesignPatterns.StructuralPatterns.Composite;
 
 namespace DesignPatterns.CreationalPatterns
 {
@@ -9,7 +10,8 @@ namespace DesignPatterns.CreationalPatterns
 		{
 			LogInterceptor.Intercept(new Action[] {
 				AdapterRunner.Run,
-				BridgeRunner.Run
+				BridgeRunner.Run,
+				CompositeRunner.Run
 			});
 		}
 	}
