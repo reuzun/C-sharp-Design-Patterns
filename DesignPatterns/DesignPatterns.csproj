@@ -15,6 +15,7 @@
     <None Remove="CreationalPatterns\AbstractFactory\Shields\" />
     <None Remove="CreationalPatterns\AbstractFactory\Factories\" />
     <None Remove="CreationalPatterns\Builder\" />
+    <None Remove="CreationalPatterns\Prototype\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -24,5 +25,6 @@
     <Folder Include="CreationalPatterns\AbstractFactory\Shields\" />
     <Folder Include="CreationalPatterns\AbstractFactory\Factories\" />
     <Folder Include="CreationalPatterns\Builder\" />
+    <Folder Include="CreationalPatterns\Prototype\" />
   </ItemGroup>
 </Project>
