@@ -7,7 +7,7 @@ namespace DesignPatterns.CreationalPatterns.Prototype
 		{
 		}
 
-		[Logger("Prototype Running Started", "Prototype Running End")]
+		[Logger("Prototype")]
 		public static void Run()
 		{
 			Car c1 = new Car("A", "2000");

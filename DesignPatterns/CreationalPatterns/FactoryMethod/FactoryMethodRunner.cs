@@ -3,7 +3,7 @@ namespace DesignPatterns.CreationalPatterns.FactoryMethod
 {
 	public class FactoryMethodRunner
 	{
-		[Logger("FactoryMethod Running Started", "FactoryMethod Running End")]
+		[Logger("FactoryMethod")]
 		public static void Run()
 		{
 			BaseCalculator additionCalculator =

@@ -2,6 +2,7 @@
 using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.FactoryMethod;
 using DesignPatterns.CreationalPatterns.Prototype;
+using DesignPatterns.CreationalPatterns.Singleton;
 
 namespace DesignPatterns.CreationalPatterns
 {
@@ -13,7 +14,8 @@ namespace DesignPatterns.CreationalPatterns
 				FactoryMethodRunner.Run,
 				AbstractFactoryRunner.Run,
 				BuilderRunner.Run,
-				PrototypeRunner.Run
+				PrototypeRunner.Run,
+				SingletonRunner.Run
 			});
 		}
 	}

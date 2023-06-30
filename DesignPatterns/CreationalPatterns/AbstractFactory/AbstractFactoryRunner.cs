@@ -7,7 +7,7 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
 		{
 		}
 
-		[Logger("AbstractFactory Running Started", "AbstractFactory Running End")]
+		[Logger("AbstractFactory")]
 		public static void Run()
 		{
 			ItemFactory silverFactory = new SilverItemFactory();

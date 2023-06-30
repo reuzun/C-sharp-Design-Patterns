@@ -7,7 +7,7 @@ namespace DesignPatterns.CreationalPatterns.Builder
 		{
 		}
 
-		[Logger("Builder Running Started", "Builder Running End")]
+		[Logger("Builder")]
 		public static void Run()
 		{
 			PizzaBuilder pizzaBuilder = new PizzaBuilder();

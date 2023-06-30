@@ -5,29 +5,22 @@ namespace DesignPatterns
 	public class LoggerAttribute : Attribute
 	{
 
-		private string beforeMessage;
-		private string afterMessage;
+		private string message;
 
-		public LoggerAttribute(string beforeMessage, string afterMessage)
+		public LoggerAttribute(string message)
 		{
-			this.beforeMessage = beforeMessage;
-			this.afterMessage = afterMessage;
+			this.message = message;
 		}
 
 		public void PrintBeforeMessage()
 		{
-			printMessage(beforeMessage);
+			Console.WriteLine("---" + message + " is Running---\n");
 		}
 
 		public void PrintAfterMessage()
 		{
 			Console.WriteLine();
-			printMessage(afterMessage);
-		}
-
-		private void printMessage(string message)
-		{
-			Console.WriteLine("---" + message + "---\n");
+			Console.WriteLine("---" + message + " is Finished---\n");
 		}
 	}
 }
