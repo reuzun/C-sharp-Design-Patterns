@@ -17,6 +17,9 @@
     <None Remove="CreationalPatterns\Builder\" />
     <None Remove="CreationalPatterns\Prototype\" />
     <None Remove="CreationalPatterns\Singleton\" />
+    <None Remove="StructuralPatterns\" />
+    <None Remove="StructuralPatterns\Adapter\" />
+    <None Remove="StructuralPatterns\Adapter\Library\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -28,5 +31,8 @@
     <Folder Include="CreationalPatterns\Builder\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="CreationalPatterns\Singleton\" />
+    <Folder Include="StructuralPatterns\" />
+    <Folder Include="StructuralPatterns\Adapter\" />
+    <Folder Include="StructuralPatterns\Adapter\Library\" />
   </ItemGroup>
 </Project>

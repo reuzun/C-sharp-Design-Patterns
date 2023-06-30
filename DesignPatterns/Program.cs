@@ -9,7 +9,10 @@ namespace Program
 		public static void Main(string[] args)
 		{
 			Runner runner = new Runner();
+			Console.WriteLine("-+-+-+-+-+-+Creational Patterns+-+-+-+-+-+-+-\n");
 			runner.RunCreationalPatterns();
+			Console.WriteLine("-+-+-+-+-+-+Structural Patterns+-+-+-+-+-+-+-\n");
+			runner.RunStructuralPatterns();
 		}
 	}
 }
