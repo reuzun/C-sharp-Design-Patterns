@@ -32,6 +32,7 @@
     <None Remove="StructuralPatterns\Proxy\" />
     <None Remove="BehavioralPatterns\" />
     <None Remove="BehavioralPatterns\CoR\" />
+    <None Remove="BehavioralPatterns\Command\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -58,5 +59,6 @@
     <Folder Include="StructuralPatterns\Proxy\" />
     <Folder Include="BehavioralPatterns\" />
     <Folder Include="BehavioralPatterns\CoR\" />
+    <Folder Include="BehavioralPatterns\Command\" />
   </ItemGroup>
 </Project>

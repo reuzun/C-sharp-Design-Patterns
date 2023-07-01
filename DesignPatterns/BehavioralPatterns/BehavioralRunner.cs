@@ -1,4 +1,5 @@
-﻿using DesignPatterns.BehavioralPatterns.CoR;
+﻿using DesignPatterns.BehavioralPatterns.Command;
+using DesignPatterns.BehavioralPatterns.CoR;
 
 namespace DesignPatterns.BehavioralPatterns
 {
@@ -7,7 +8,8 @@ namespace DesignPatterns.BehavioralPatterns
 		public static void RunBehavioralPatterns(this Runner runner)
 		{
 			LogInterceptor.Intercept(new Action[] {
-				CoRRunner.Run
+				CoRRunner.Run,
+				CommandRunner.Run
 			});
 		}
 	}
