@@ -1,10 +1,4 @@
-﻿using System;
-using DesignPatterns.StructuralPatterns.Adapter;
-using DesignPatterns.StructuralPatterns.Bridge;
-using DesignPatterns.StructuralPatterns.Composite;
-using DesignPatterns.StructuralPatterns.Decorator;
-using DesignPatterns.StructuralPatterns.Flyweight;
-using DesignPatterns.StructuralPatterns.Proxy;
+﻿using DesignPatterns.BehavioralPatterns.CoR;
 
 namespace DesignPatterns.BehavioralPatterns
 {
@@ -13,7 +7,7 @@ namespace DesignPatterns.BehavioralPatterns
 		public static void RunBehavioralPatterns(this Runner runner)
 		{
 			LogInterceptor.Intercept(new Action[] {
-
+				CoRRunner.Run
 			});
 		}
 	}

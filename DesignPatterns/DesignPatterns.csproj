@@ -31,6 +31,7 @@
     <None Remove="StructuralPatterns\Decorator\" />
     <None Remove="StructuralPatterns\Proxy\" />
     <None Remove="BehavioralPatterns\" />
+    <None Remove="BehavioralPatterns\CoR\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -56,5 +57,6 @@
     <Folder Include="StructuralPatterns\Decorator\" />
     <Folder Include="StructuralPatterns\Proxy\" />
     <Folder Include="BehavioralPatterns\" />
+    <Folder Include="BehavioralPatterns\CoR\" />
   </ItemGroup>
 </Project>
