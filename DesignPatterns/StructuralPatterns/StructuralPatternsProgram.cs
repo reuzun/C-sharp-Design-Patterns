@@ -2,6 +2,7 @@
 using DesignPatterns.StructuralPatterns.Bridge;
 using DesignPatterns.StructuralPatterns.Composite;
 using DesignPatterns.StructuralPatterns.Decorator;
+using DesignPatterns.StructuralPatterns.Flyweight;
 
 namespace DesignPatterns.CreationalPatterns
 {
@@ -13,7 +14,8 @@ namespace DesignPatterns.CreationalPatterns
 				AdapterRunner.Run,
 				BridgeRunner.Run,
 				CompositeRunner.Run,
-				DecoratorRunner.Run
+				DecoratorRunner.Run,
+				FlyweightRunner.Run
 			});
 		}
 	}
