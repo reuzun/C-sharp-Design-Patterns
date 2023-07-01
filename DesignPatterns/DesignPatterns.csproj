@@ -28,6 +28,7 @@
     <None Remove="CreationalPatterns\FactoryMethod\Factories\" />
     <None Remove="CreationalPatterns\FactoryMethod\Products\" />
     <None Remove="StructuralPatterns\Composite\" />
+    <None Remove="StructuralPatterns\Decorator\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -50,5 +51,6 @@
     <Folder Include="CreationalPatterns\FactoryMethod\Factories\" />
     <Folder Include="CreationalPatterns\FactoryMethod\Products\" />
     <Folder Include="StructuralPatterns\Composite\" />
+    <Folder Include="StructuralPatterns\Decorator\" />
   </ItemGroup>
 </Project>
