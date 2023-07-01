@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns;
+using DesignPatterns.BehavioralPatterns;
 using DesignPatterns.CreationalPatterns;
 
 namespace Program
@@ -13,6 +14,8 @@ namespace Program
 			runner.RunCreationalPatterns();
 			Console.WriteLine("-+-+-+-+-+-+Structural Patterns+-+-+-+-+-+-+-\n");
 			runner.RunStructuralPatterns();
+			Console.WriteLine("-+-+-+-+-+-+Behavioral Patterns+-+-+-+-+-+-+-\n");
+			runner.RunBehavioralPatterns();
 		}
 	}
 }
