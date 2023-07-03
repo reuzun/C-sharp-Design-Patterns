@@ -34,6 +34,7 @@
     <None Remove="BehavioralPatterns\CoR\" />
     <None Remove="BehavioralPatterns\Command\" />
     <None Remove="BehavioralPatterns\Mediator\" />
+    <None Remove="BehavioralPatterns\Memento\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -62,5 +63,6 @@
     <Folder Include="BehavioralPatterns\CoR\" />
     <Folder Include="BehavioralPatterns\Command\" />
     <Folder Include="BehavioralPatterns\Mediator\" />
+    <Folder Include="BehavioralPatterns\Memento\" />
   </ItemGroup>
 </Project>

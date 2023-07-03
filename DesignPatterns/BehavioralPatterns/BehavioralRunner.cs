@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.BehavioralPatterns.Command;
 using DesignPatterns.BehavioralPatterns.CoR;
 using DesignPatterns.BehavioralPatterns.Mediator;
+using DesignPatterns.BehavioralPatterns.Memento;
 
 namespace DesignPatterns.BehavioralPatterns
 {
@@ -11,7 +12,8 @@ namespace DesignPatterns.BehavioralPatterns
 			LogInterceptor.Intercept(new Action[] {
 				CoRRunner.Run,
 				CommandRunner.Run,
-				MediatorRunner.Run
+				MediatorRunner.Run,
+				MementoRunner.Run
 			});
 		}
 	}
