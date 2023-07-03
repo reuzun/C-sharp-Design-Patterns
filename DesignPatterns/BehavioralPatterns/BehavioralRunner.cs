@@ -3,6 +3,7 @@ using DesignPatterns.BehavioralPatterns.CoR;
 using DesignPatterns.BehavioralPatterns.Mediator;
 using DesignPatterns.BehavioralPatterns.Memento;
 using DesignPatterns.BehavioralPatterns.State;
+using DesignPatterns.BehavioralPatterns.TemplateMethod;
 
 namespace DesignPatterns.BehavioralPatterns
 {
@@ -15,7 +16,8 @@ namespace DesignPatterns.BehavioralPatterns
 				CommandRunner.Run,
 				MediatorRunner.Run,
 				MementoRunner.Run,
-				StateRunner.Run
+				StateRunner.Run,
+				TemplateMethodRunner.Run
 			});
 		}
 	}

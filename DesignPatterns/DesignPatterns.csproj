@@ -36,6 +36,7 @@
     <None Remove="BehavioralPatterns\Mediator\" />
     <None Remove="BehavioralPatterns\Memento\" />
     <None Remove="BehavioralPatterns\State\" />
+    <None Remove="BehavioralPatterns\TemplateMethod\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -66,5 +67,6 @@
     <Folder Include="BehavioralPatterns\Mediator\" />
     <Folder Include="BehavioralPatterns\Memento\" />
     <Folder Include="BehavioralPatterns\State\" />
+    <Folder Include="BehavioralPatterns\TemplateMethod\" />
   </ItemGroup>
 </Project>
