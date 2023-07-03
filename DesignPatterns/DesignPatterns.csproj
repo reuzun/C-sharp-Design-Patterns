@@ -37,6 +37,7 @@
     <None Remove="BehavioralPatterns\Memento\" />
     <None Remove="BehavioralPatterns\State\" />
     <None Remove="BehavioralPatterns\TemplateMethod\" />
+    <None Remove="BehavioralPatterns\Visitor\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\" />
@@ -68,5 +69,6 @@
     <Folder Include="BehavioralPatterns\Memento\" />
     <Folder Include="BehavioralPatterns\State\" />
     <Folder Include="BehavioralPatterns\TemplateMethod\" />
+    <Folder Include="BehavioralPatterns\Visitor\" />
   </ItemGroup>
 </Project>

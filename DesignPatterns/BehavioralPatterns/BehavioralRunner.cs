@@ -4,6 +4,7 @@ using DesignPatterns.BehavioralPatterns.Mediator;
 using DesignPatterns.BehavioralPatterns.Memento;
 using DesignPatterns.BehavioralPatterns.State;
 using DesignPatterns.BehavioralPatterns.TemplateMethod;
+using DesignPatterns.BehavioralPatterns.Visitor;
 
 namespace DesignPatterns.BehavioralPatterns
 {
@@ -17,7 +18,8 @@ namespace DesignPatterns.BehavioralPatterns
 				MediatorRunner.Run,
 				MementoRunner.Run,
 				StateRunner.Run,
-				TemplateMethodRunner.Run
+				TemplateMethodRunner.Run,
+				VisitorRunner.Run
 			});
 		}
 	}
